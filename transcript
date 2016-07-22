@@ -1,0 +1,466 @@
+# //  Questa Sim
+# //  Version 10.0b win32 May  5 2011
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim top 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.top_sv_unit
+# Loading work.top(fast)
+# Loading C:\questasim_10.0b\uvm-1.0p1\win32\uvm_dpi.dll
+#  
+run -all
+# ----------------------------------------------------------------
+# UVM-1.0p1 
+# (C) 2007-2011 Mentor Graphics Corporation
+# (C) 2007-2011 Cadence Design Systems, Inc.
+# (C) 2006-2011 Synopsys, Inc.
+# ----------------------------------------------------------------
+# UVM_FATAL @ 0: reporter [NOCOMP] No components instantiated. You must either instantiate at least one component before calling run_test or use run_test to do so. To run a test using run_test, use +UVM_TESTNAME or supply the test name in the argument to run_test(). Exiting simulation.
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    0
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    1
+# ** Report counts by id
+# [NOCOMP]     1
+# ** Note: $finish    : C:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_report_object.svh(280)
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# 1
+# Break at C:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_report_object.svh line 280
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# QuestaSim vlog 10.0b Compiler 2011.05 May  5 2011
+# ** Note: (vlog-2286) Using implicit +incdir+C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src from import uvm_pkg
+# ** Warning: driver.sv(1): (vlog-2181) Use of a parameterized class uvm_driver as a type creates a default specialization.
+# -- Compiling package top_sv_unit
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.0p1 Built-in)
+# ** Warning: driver.sv(1): (vlog-2181) Use of a parameterized class uvm_driver as a type creates a default specialization.
+# -- Compiling module top
+# ** Warning: driver.sv(1): (vlog-2181) Use of a parameterized class uvm_driver as a type creates a default specialization.
+# 
+# Top level modules:
+# 	top
+# vsim +UVM_TESTNAME=test1 -novopt top 
+# Refreshing C:\Users\Naveen\Documents\GitHub\uvm_simulation_phases\work.top
+# Refreshing C:\Users\Naveen\Documents\GitHub\uvm_simulation_phases\work.top_sv_unit
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.top_sv_unit
+# Loading work.top
+# Loading C:\questasim_10.0b\uvm-1.0p1\win32\uvm_dpi.dll
+# ----------------------------------------------------------------
+# UVM-1.0p1 
+# (C) 2007-2011 Mentor Graphics Corporation
+# (C) 2007-2011 Cadence Design Systems, Inc.
+# (C) 2006-2011 Synopsys, Inc.
+# ----------------------------------------------------------------
+# UVM_INFO @ 0: reporter [RNTST] Running test test1...
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Build
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1 [uvm_test_top.my_env.agt1] Build
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.drv [uvm_test_top.my_env.agt1.drv] Build
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.mon [uvm_test_top.my_env.agt1.mon] Build
+# UVM_INFO @ 0: uvm_test_top.my_env.agt2 [uvm_test_top.my_env.agt2] Build
+# UVM_INFO @ 0: uvm_test_top.my_env.agt2.drv [uvm_test_top.my_env.agt2.drv] Build
+# UVM_INFO @ 0: uvm_test_top.my_env.agt2.mon [uvm_test_top.my_env.agt2.mon] Build
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.drv [uvm_test_top.my_env.agt1.drv] Connet
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.mon [uvm_test_top.my_env.agt1.mon] Connet
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1 [uvm_test_top.my_env.agt1] Connet
+# UVM_INFO @ 0: uvm_test_top.my_env.agt2.drv [uvm_test_top.my_env.agt2.drv] Connet
+# UVM_INFO @ 0: uvm_test_top.my_env.agt2.mon [uvm_test_top.my_env.agt2.mon] Connet
+# UVM_INFO @ 0: uvm_test_top.my_env.agt2 [uvm_test_top.my_env.agt2] Connet
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Connet
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.drv [uvm_test_top.my_env.agt1.drv] End of elab
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.mon [uvm_test_top.my_env.agt1.mon] End of elab
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1 [uvm_test_top.my_env.agt1] End of elab
+# UVM_INFO @ 0: uvm_test_top.my_env.agt2.drv [uvm_test_top.my_env.agt2.drv] End of elab
+# UVM_INFO @ 0: uvm_test_top.my_env.agt2.mon [uvm_test_top.my_env.agt2.mon] End of elab
+# UVM_INFO @ 0: uvm_test_top.my_env.agt2 [uvm_test_top.my_env.agt2] End of elab
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] End of elab
+# UVM_INFO @ 0: uvm_test_top [uvm_test_top] End of elab
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.drv [uvm_test_top.my_env.agt1.drv] Star of Simulation
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.mon [uvm_test_top.my_env.agt1.mon] Star of Simulation
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1 [uvm_test_top.my_env.agt1] Star of Simulation
+# UVM_INFO @ 0: uvm_test_top.my_env.agt2.drv [uvm_test_top.my_env.agt2.drv] Star of Simulation
+# UVM_INFO @ 0: uvm_test_top.my_env.agt2.mon [uvm_test_top.my_env.agt2.mon] Star of Simulation
+# UVM_INFO @ 0: uvm_test_top.my_env.agt2 [uvm_test_top.my_env.agt2] Star of Simulation
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Star of Simulation
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Run
+# UVM_INFO @ 0: uvm_test_top.my_env.agt2 [uvm_test_top.my_env.agt2] Run
+# UVM_INFO @ 0: uvm_test_top.my_env.agt2.mon [uvm_test_top.my_env.agt2.mon] Run
+# UVM_INFO @ 0: uvm_test_top.my_env.agt2.drv [uvm_test_top.my_env.agt2.drv] Run
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1 [uvm_test_top.my_env.agt1] Run
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.mon [uvm_test_top.my_env.agt1.mon] Run
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.drv [uvm_test_top.my_env.agt1.drv] Run
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.drv [uvm_test_top.my_env.agt1.drv] Extract
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.mon [uvm_test_top.my_env.agt1.mon] Extract
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1 [uvm_test_top.my_env.agt1] Extract
+# UVM_INFO @ 0: uvm_test_top.my_env.agt2.drv [uvm_test_top.my_env.agt2.drv] Extract
+# UVM_INFO @ 0: uvm_test_top.my_env.agt2.mon [uvm_test_top.my_env.agt2.mon] Extract
+# UVM_INFO @ 0: uvm_test_top.my_env.agt2 [uvm_test_top.my_env.agt2] Extract
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Extract
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.drv [uvm_test_top.my_env.agt1.drv] Check
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.mon [uvm_test_top.my_env.agt1.mon] Check
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1 [uvm_test_top.my_env.agt1] Check
+# UVM_INFO @ 0: uvm_test_top.my_env.agt2.drv [uvm_test_top.my_env.agt2.drv] Check
+# UVM_INFO @ 0: uvm_test_top.my_env.agt2.mon [uvm_test_top.my_env.agt2.mon] Check
+# UVM_INFO @ 0: uvm_test_top.my_env.agt2 [uvm_test_top.my_env.agt2] Check
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Check
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.drv [uvm_test_top.my_env.agt1.drv] Report
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.mon [uvm_test_top.my_env.agt1.mon] Report
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1 [uvm_test_top.my_env.agt1] Report
+# UVM_INFO @ 0: uvm_test_top.my_env.agt2.drv [uvm_test_top.my_env.agt2.drv] Report
+# UVM_INFO @ 0: uvm_test_top.my_env.agt2.mon [uvm_test_top.my_env.agt2.mon] Report
+# UVM_INFO @ 0: uvm_test_top.my_env.agt2 [uvm_test_top.my_env.agt2] Report
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Report
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   58
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [RNTST]     1
+# [uvm_test_top]     1
+# [uvm_test_top.my_env]     8
+# [uvm_test_top.my_env.agt1]     8
+# [uvm_test_top.my_env.agt1.drv]     8
+# [uvm_test_top.my_env.agt1.mon]     8
+# [uvm_test_top.my_env.agt2]     8
+# [uvm_test_top.my_env.agt2.drv]     8
+# [uvm_test_top.my_env.agt2.mon]     8
+# ** Note: $finish    : C:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_root.svh(392)
+#    Time: 0 ns  Iteration: 196  Instance: /top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_root.svh line 392
+# Simulation Breakpoint: 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_root.svh line 392
+# MACRO ./run.do PAUSED at line 5
+# No wave window is currently open
+
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# QuestaSim vlog 10.0b Compiler 2011.05 May  5 2011
+# ** Note: (vlog-2286) Using implicit +incdir+C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src from import uvm_pkg
+# ** Warning: driver.sv(1): (vlog-2181) Use of a parameterized class uvm_driver as a type creates a default specialization.
+# -- Compiling package top_sv_unit
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.0p1 Built-in)
+# ** Warning: driver.sv(1): (vlog-2181) Use of a parameterized class uvm_driver as a type creates a default specialization.
+# -- Compiling module top
+# ** Warning: driver.sv(1): (vlog-2181) Use of a parameterized class uvm_driver as a type creates a default specialization.
+# 
+# Top level modules:
+# 	top
+# vsim +UVM_TESTNAME=test1 -novopt top 
+# Refreshing C:\Users\Naveen\Documents\GitHub\uvm_simulation_phases\work.top
+# Refreshing C:\Users\Naveen\Documents\GitHub\uvm_simulation_phases\work.top_sv_unit
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.top_sv_unit
+# Loading work.top
+# Loading C:\questasim_10.0b\uvm-1.0p1\win32\uvm_dpi.dll
+# ----------------------------------------------------------------
+# UVM-1.0p1 
+# (C) 2007-2011 Mentor Graphics Corporation
+# (C) 2007-2011 Cadence Design Systems, Inc.
+# (C) 2006-2011 Synopsys, Inc.
+# ----------------------------------------------------------------
+# UVM_INFO @ 0: reporter [RNTST] Running test test1...
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Build
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1 [uvm_test_top.my_env.agt1] Build
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.drv [uvm_test_top.my_env.agt1.drv] Build
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.mon [uvm_test_top.my_env.agt1.mon] Build
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.drv [uvm_test_top.my_env.agt1.drv] Connet
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.mon [uvm_test_top.my_env.agt1.mon] Connet
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1 [uvm_test_top.my_env.agt1] Connet
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Connet
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.drv [uvm_test_top.my_env.agt1.drv] End of elab
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.mon [uvm_test_top.my_env.agt1.mon] End of elab
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1 [uvm_test_top.my_env.agt1] End of elab
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] End of elab
+# UVM_INFO @ 0: uvm_test_top [uvm_test_top] End of elab
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.drv [uvm_test_top.my_env.agt1.drv] Star of Simulation
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.mon [uvm_test_top.my_env.agt1.mon] Star of Simulation
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1 [uvm_test_top.my_env.agt1] Star of Simulation
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Star of Simulation
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Run
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1 [uvm_test_top.my_env.agt1] Run
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.mon [uvm_test_top.my_env.agt1.mon] Run
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.drv [uvm_test_top.my_env.agt1.drv] Run
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.drv [uvm_test_top.my_env.agt1.drv] Extract
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.mon [uvm_test_top.my_env.agt1.mon] Extract
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1 [uvm_test_top.my_env.agt1] Extract
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Extract
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.drv [uvm_test_top.my_env.agt1.drv] Check
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.mon [uvm_test_top.my_env.agt1.mon] Check
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1 [uvm_test_top.my_env.agt1] Check
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Check
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.drv [uvm_test_top.my_env.agt1.drv] Report
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.mon [uvm_test_top.my_env.agt1.mon] Report
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1 [uvm_test_top.my_env.agt1] Report
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Report
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   34
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [RNTST]     1
+# [uvm_test_top]     1
+# [uvm_test_top.my_env]     8
+# [uvm_test_top.my_env.agt1]     8
+# [uvm_test_top.my_env.agt1.drv]     8
+# [uvm_test_top.my_env.agt1.mon]     8
+# ** Note: $finish    : C:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_root.svh(392)
+#    Time: 0 ns  Iteration: 196  Instance: /top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_root.svh line 392
+# Simulation Breakpoint: 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_root.svh line 392
+# MACRO ./run.do PAUSED at line 5
+run -all
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# QuestaSim vlog 10.0b Compiler 2011.05 May  5 2011
+# ** Note: (vlog-2286) Using implicit +incdir+C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src from import uvm_pkg
+# ** Warning: driver.sv(1): (vlog-2181) Use of a parameterized class uvm_driver as a type creates a default specialization.
+# -- Compiling package top_sv_unit
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.0p1 Built-in)
+# ** Warning: driver.sv(1): (vlog-2181) Use of a parameterized class uvm_driver as a type creates a default specialization.
+# -- Compiling module top
+# ** Warning: driver.sv(1): (vlog-2181) Use of a parameterized class uvm_driver as a type creates a default specialization.
+# 
+# Top level modules:
+# 	top
+# vsim +UVM_TESTNAME=test1 -novopt top 
+# Refreshing C:\Users\Naveen\Documents\GitHub\uvm_simulation_phases\work.top
+# Refreshing C:\Users\Naveen\Documents\GitHub\uvm_simulation_phases\work.top_sv_unit
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.top_sv_unit
+# Loading work.top
+# Loading C:\questasim_10.0b\uvm-1.0p1\win32\uvm_dpi.dll
+# ----------------------------------------------------------------
+# UVM-1.0p1 
+# (C) 2007-2011 Mentor Graphics Corporation
+# (C) 2007-2011 Cadence Design Systems, Inc.
+# (C) 2006-2011 Synopsys, Inc.
+# ----------------------------------------------------------------
+# UVM_INFO @ 0: reporter [RNTST] Running test test1...
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Build
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Connet
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] End of elab
+# UVM_INFO @ 0: uvm_test_top [uvm_test_top] End of elab
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Star of Simulation
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Run
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Extract
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Check
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Report
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   10
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [RNTST]     1
+# [uvm_test_top]     1
+# [uvm_test_top.my_env]     8
+# ** Note: $finish    : C:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_root.svh(392)
+#    Time: 0 ns  Iteration: 196  Instance: /top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_root.svh line 392
+# Simulation Breakpoint: 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_root.svh line 392
+# MACRO ./run.do PAUSED at line 5
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# QuestaSim vlog 10.0b Compiler 2011.05 May  5 2011
+# ** Note: (vlog-2286) Using implicit +incdir+C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src from import uvm_pkg
+# ** Warning: driver.sv(1): (vlog-2181) Use of a parameterized class uvm_driver as a type creates a default specialization.
+# ** Error: test.sv(4): near "test1": syntax error, unexpected STRING_LITERAL, expecting ')'
+# ** Error: C:/questasim_10.0b/win32/vlog failed.
+# Error in macro ./run.do line 3
+# C:/questasim_10.0b/win32/vlog failed.
+#     while executing
+# "vlog  top.sv"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# QuestaSim vlog 10.0b Compiler 2011.05 May  5 2011
+# ** Note: (vlog-2286) Using implicit +incdir+C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src from import uvm_pkg
+# ** Warning: driver.sv(1): (vlog-2181) Use of a parameterized class uvm_driver as a type creates a default specialization.
+# -- Compiling package top_sv_unit
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.0p1 Built-in)
+# ** Warning: driver.sv(1): (vlog-2181) Use of a parameterized class uvm_driver as a type creates a default specialization.
+# -- Compiling module top
+# ** Warning: driver.sv(1): (vlog-2181) Use of a parameterized class uvm_driver as a type creates a default specialization.
+# 
+# Top level modules:
+# 	top
+# vsim +UVM_TESTNAME=test1 -novopt top 
+# Refreshing C:\Users\Naveen\Documents\GitHub\uvm_simulation_phases\work.top
+# Refreshing C:\Users\Naveen\Documents\GitHub\uvm_simulation_phases\work.top_sv_unit
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.top_sv_unit
+# Loading work.top
+# Loading C:\questasim_10.0b\uvm-1.0p1\win32\uvm_dpi.dll
+# ----------------------------------------------------------------
+# UVM-1.0p1 
+# (C) 2007-2011 Mentor Graphics Corporation
+# (C) 2007-2011 Cadence Design Systems, Inc.
+# (C) 2006-2011 Synopsys, Inc.
+# ----------------------------------------------------------------
+# UVM_INFO @ 0: reporter [RNTST] Running test test1...
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Build
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Connet
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] End of elab
+# UVM_INFO @ 0: uvm_test_top [uvm_test_top] End of elab
+# --------------------------------
+# Name          Type   Size  Value
+# --------------------------------
+# uvm_test_top  test1  -     @455 
+#   my_env      env    -     @462 
+# --------------------------------
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Start of Simulation
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Run
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Extract
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Check
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Report
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   10
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [RNTST]     1
+# [uvm_test_top]     1
+# [uvm_test_top.my_env]     8
+# ** Note: $finish    : C:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_root.svh(392)
+#    Time: 0 ns  Iteration: 196  Instance: /top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_root.svh line 392
+# Simulation Breakpoint: 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_root.svh line 392
+# MACRO ./run.do PAUSED at line 5
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# QuestaSim vlog 10.0b Compiler 2011.05 May  5 2011
+# ** Note: (vlog-2286) Using implicit +incdir+C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src from import uvm_pkg
+# ** Warning: driver.sv(1): (vlog-2181) Use of a parameterized class uvm_driver as a type creates a default specialization.
+# -- Compiling package top_sv_unit
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.0p1 Built-in)
+# ** Warning: driver.sv(1): (vlog-2181) Use of a parameterized class uvm_driver as a type creates a default specialization.
+# -- Compiling module top
+# ** Warning: driver.sv(1): (vlog-2181) Use of a parameterized class uvm_driver as a type creates a default specialization.
+# 
+# Top level modules:
+# 	top
+# vsim +UVM_TESTNAME=test1 -novopt top 
+# Refreshing C:\Users\Naveen\Documents\GitHub\uvm_simulation_phases\work.top
+# Refreshing C:\Users\Naveen\Documents\GitHub\uvm_simulation_phases\work.top_sv_unit
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.top_sv_unit
+# Loading work.top
+# Loading C:\questasim_10.0b\uvm-1.0p1\win32\uvm_dpi.dll
+# ----------------------------------------------------------------
+# UVM-1.0p1 
+# (C) 2007-2011 Mentor Graphics Corporation
+# (C) 2007-2011 Cadence Design Systems, Inc.
+# (C) 2006-2011 Synopsys, Inc.
+# ----------------------------------------------------------------
+# UVM_INFO @ 0: reporter [RNTST] Running test test1...
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Build
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1 [uvm_test_top.my_env.agt1] Build
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.drv [uvm_test_top.my_env.agt1.drv] Build
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.mon [uvm_test_top.my_env.agt1.mon] Build
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.drv [uvm_test_top.my_env.agt1.drv] Connet
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.mon [uvm_test_top.my_env.agt1.mon] Connet
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1 [uvm_test_top.my_env.agt1] Connet
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Connet
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.drv [uvm_test_top.my_env.agt1.drv] End of elab
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.mon [uvm_test_top.my_env.agt1.mon] End of elab
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1 [uvm_test_top.my_env.agt1] End of elab
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] End of elab
+# UVM_INFO @ 0: uvm_test_top [uvm_test_top] End of elab
+# ----------------------------------------------------------
+# Name                   Type                    Size  Value
+# ----------------------------------------------------------
+# uvm_test_top           test1                   -     @455 
+#   my_env               env                     -     @462 
+#     agt1               agent                   -     @472 
+#       drv              driver                  -     @487 
+#         rsp_port       uvm_analysis_port       -     @502 
+#         sqr_pull_port  uvm_seq_item_pull_port  -     @494 
+#       mon              monitor                 -     @480 
+# ----------------------------------------------------------
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.drv [uvm_test_top.my_env.agt1.drv] Start of Simulation
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.mon [uvm_test_top.my_env.agt1.mon] Start of Simulation
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1 [uvm_test_top.my_env.agt1] Start of Simulation
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Start of Simulation
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Run
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1 [uvm_test_top.my_env.agt1] Run
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.mon [uvm_test_top.my_env.agt1.mon] Run
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.drv [uvm_test_top.my_env.agt1.drv] Run
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.drv [uvm_test_top.my_env.agt1.drv] Extract
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.mon [uvm_test_top.my_env.agt1.mon] Extract
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1 [uvm_test_top.my_env.agt1] Extract
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Extract
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.drv [uvm_test_top.my_env.agt1.drv] Check
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.mon [uvm_test_top.my_env.agt1.mon] Check
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1 [uvm_test_top.my_env.agt1] Check
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Check
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.drv [uvm_test_top.my_env.agt1.drv] Report
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1.mon [uvm_test_top.my_env.agt1.mon] Report
+# UVM_INFO @ 0: uvm_test_top.my_env.agt1 [uvm_test_top.my_env.agt1] Report
+# UVM_INFO @ 0: uvm_test_top.my_env [uvm_test_top.my_env] Report
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   34
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [RNTST]     1
+# [uvm_test_top]     1
+# [uvm_test_top.my_env]     8
+# [uvm_test_top.my_env.agt1]     8
+# [uvm_test_top.my_env.agt1.drv]     8
+# [uvm_test_top.my_env.agt1.mon]     8
+# ** Note: $finish    : C:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_root.svh(392)
+#    Time: 0 ns  Iteration: 196  Instance: /top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_root.svh line 392
+# Simulation Breakpoint: 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_root.svh line 392
+# MACRO ./run.do PAUSED at line 5
+quit
